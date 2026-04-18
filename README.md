@@ -1,4 +1,5 @@
 # Vertebrate Genome Assembly Pipeline (VGP)
+
 This repository contains the workflow and documentation for a high-quality *de novo* genome assembly of a vertebrate species, completed as part of a Bioinformatics application study.
 
 ## 🧬 Project Overview
@@ -36,9 +37,28 @@ Based on the final QC reports from `gfastats` and `BUSCO`, the assembly achieved
 
 ---
 
+## 📁 Detailed Results & Evidence
+Full output files and quality metrics are available in the [results/](results/) directory.
+
+### 🖼️ Key Visualizations
+* **GenomeScope K-mer Profile:**
+  ![GenomeScope Plot](results/Genome%20scope%20plot.png)
+  *(Estimates genome size, heterozygosity, and repeat content.)*
+
+* **BUSCO Quality Summary:**
+  ![BUSCO Summary](results/Screenshot%20(158).png)
+  *(Assesses assembly completeness based on evolutionarily conserved genes.)*
+
+* **Hi-C Contact Map:**
+  ![Hi-C Contact Map](results/Galaxy120-[pretext_snapshotFullMap].png)
+  *(Visualizes the final chromosome-level scaffolding connectivity and accuracy.)*
+
+---
+
 ## 📂 Repository Structure
-* `VGP_Assembly_Workflow.ga`: The full Galaxy workflow file. You can import this into any Galaxy instance to replicate the analysis.
-* `README.md`: Project documentation and results.
+* `VGP_Assembly_Workflow.ga`: The full Galaxy workflow file.
+* `results/`: Directory containing raw output images and statistics.
+* `README.md`: Project documentation.
 
 ## 📜 References
 * **Galaxy Training Network:** [Vertebrate genome assembly tutorial](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_genome_assembly/tutorial.html).
