@@ -42,15 +42,15 @@ Full output files and quality metrics are available in the [results/](results/) 
 
 ### 🖼️ Key Visualizations
 * **GenomeScope K-mer Profile:**
-  ![GenomeScope Plot](results/Genome%20scope%20plot.png)
+  ![GenomeScope Plot](results/Genome_scope_plot.png)
   *(Estimates genome size, heterozygosity, and repeat content.)*
 
 * **BUSCO Quality Summary:**
-  ![BUSCO Summary](results/Screenshot%20(158).png)
+  ![BUSCO Summary](results/BUSCO_summary.png)
   *(Assesses assembly completeness based on evolutionarily conserved genes.)*
 
 * **Hi-C Contact Map:**
-  ![Hi-C Contact Map](results/Galaxy120-[pretext_snapshotFullMap].png)
+  ![Hi-C Contact Map](results/HiC_map.png)
   *(Visualizes the final chromosome-level scaffolding connectivity and accuracy.)*
 
 ---
